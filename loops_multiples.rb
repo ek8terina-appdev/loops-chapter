@@ -18,4 +18,8 @@
 # 20
 
 p "Enter a number:"
-
+number = gets.chomp.to_f
+10.times do |step|
+  result = number * (step + 1)
+  p result.to_i
+end
